@@ -216,7 +216,7 @@
         const blob = new Blob([modifiedBuffer], { type: "application/octet-stream" });
         const a = document.createElement("a");
         a.href = URL.createObjectURL(blob);
-        a.download = `modified_By_Bronex_${originalFileName}`;
+        a.download = `modified_By_Gamav_${originalFileName}`;
         a.click();
         URL.revokeObjectURL(a.href);
       }
